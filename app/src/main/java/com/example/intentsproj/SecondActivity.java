@@ -22,7 +22,6 @@ public class SecondActivity extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_second);
 
-            Log.i("Lifecycle", "OnCreate() Invoked");
 
             TextInputEditText no1 = (TextInputEditText)findViewById(R.id.textInputLayout3);
             TextInputEditText no2 = (TextInputEditText)findViewById(R.id.textInputLayout4);

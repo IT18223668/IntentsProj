@@ -25,7 +25,7 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
 
-        Log.i("Lifecycle","OnCreate Invoked");
+
         final TextInputEditText no1=(TextInputEditText)findViewById(R.id.textInputLayout);
         final TextInputEditText no2=(TextInputEditText)findViewById(R.id.textInputLayout2);
 
@@ -38,12 +38,10 @@ public class FirstActivity extends AppCompatActivity {
                 String n1=no1.getText().toString();
                 String n2=no2.getText().toString();
 
-                if(n1=equals("") || n2=equals("")){
-                    validate();
-                }else{
-                    DisplayToast();
+
+                    displayToast();
                     openSecondActivity();
-                }
+
 
 
             }
