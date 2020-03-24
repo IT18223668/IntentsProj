@@ -7,12 +7,7 @@
     android:background="#F14E23"
         >
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/custom_toast_image"
-        android:contentDescription="Hello World"
-        android:src="@drawable/customToastImage" />
+
     <TextView
         android:id="@+id/custom_toast_message"
         android:layout_width="wrap_content"

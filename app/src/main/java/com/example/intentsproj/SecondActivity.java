@@ -30,7 +30,7 @@ public class SecondActivity extends AppCompatActivity {
             no2.setText(getIntent().getExtras().getString("number2"));
         }
 
-        //Add button functions goes here
+
 
         public void onButtonAdd(View v){
             TextInputEditText no1 = (TextInputEditText)findViewById(R.id.textInputLayout3);
@@ -46,7 +46,7 @@ public class SecondActivity extends AppCompatActivity {
             textView.setText(Float.toString(number1)+" "+"+"+" "+Float.toString(number2)+" "+"="+" "+Float.toString(sum));
         }
 
-        //subtraction function goes here
+
 
         public void onButtonSub(View v){
             TextInputEditText no1 = (TextInputEditText)findViewById(R.id.textInputLayout3);
@@ -62,7 +62,7 @@ public class SecondActivity extends AppCompatActivity {
             textView.setText(Float.toString(number1)+" "+"-"+" "+Float.toString(number2)+" "+"="+" "+Float.toString(sub));
         }
 
-        //multiple function goes here
+
 
         public void onButtonMul(View v){
             TextInputEditText no1 = (TextInputEditText)findViewById(R.id.textInputLayout3);
@@ -79,7 +79,7 @@ public class SecondActivity extends AppCompatActivity {
 
         }
 
-        //division function goes here
+
 
         public void onButtonDiv(View v){
             TextInputEditText no1 = (TextInputEditText)findViewById(R.id.textInputLayout3);
