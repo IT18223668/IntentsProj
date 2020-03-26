@@ -76,15 +76,9 @@ public class FirstActivity extends AppCompatActivity {
                 toast.show();
             }
 
-            private void validate(){
-                LayoutInflater li = getLayoutInflater();
-
-                View layout = li.inflate(R.layout.custom_toast, (ViewGroup) findViewById(R.id.custom_toast_layout));
 
 
             }
-        }
-
 
 
 
